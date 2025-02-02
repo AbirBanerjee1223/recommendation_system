@@ -65,6 +65,4 @@ To run the website and access the recommendation system locally, please follow t
 
 Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
