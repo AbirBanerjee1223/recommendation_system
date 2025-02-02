@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Catalog</title>
+</head>
+<body>
+    <header>
+        <h1>Product Catalog</h1>
+        <input type="text" id="search-box" placeholder="Search for products...">
+    </header>
+
+    <nav>
+        <ul id="category-list"></ul>
+    </nav>
+
+    <main>
+        <div id="product-list">
+            <!-- Products will be dynamically populated here -->
+        </div>
+    </main>
+
+    <div id="product-detail" style="display: none;">
+        <!-- Product details will be dynamically populated here -->
+    </div>
+
+    <div id="recommendations-section">
+        <div id="content-based-recommendations" class="recommendation-row"></div>
+        <div id="hybrid-recommendations" class="recommendation-row"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
